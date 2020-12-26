@@ -1,0 +1,166 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Jost";
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.row {
+	margin: 0;
+}
+
+.header-container{
+	background-color: #000000;
+}
+
+p{
+	margin: 0;
+}
+
+.call{
+	font-size: 13px;
+	color: #858585;
+	font-weight: 500;
+}
+
+.phone{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.dropdown{
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.currency{
+	font-size: 13px;
+	color: #858585;
+	font-weight: 500;
+}
+
+.dropdown-menu{
+	min-width: auto;
+	font-size: 13px;
+}
+
+.menu{
+	background-color: #968f7e;
+}
+
+.effect{
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.effect::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #ffffff;
+	transition: width .5s;
+}
+
+.effect:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+.menu .row .col-sm-4 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.summer-collection{
+	background-color: #968f7e;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.summer{
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.sale{
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.discover{
+	font-weight: bold;
+	font-size: 13px;
+	color: #ffffff;		
+}
+
+#owl-demo .item{
+    display: block;
+    width: 100%;
+}
+
+.owl-dots .owl-dot span{
+	background-color: #ffffff;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span{
+	background-color: #ffffff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	background-color: #000000;
+}
+
+.owl-theme .owl-dots .owl-dot{
+    outline: none;
+}
+
+.women-collection{
+	background-color: #968f7e;
+}
+
+.women{
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.collections .row a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.collections .row a:hover{
+	font-weight: bold;
+}
+
+.collections .row .col-sm-4{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.dress{
+	background-color: #000000;
+	font-size: 15px;
+	color: #aaaaaa;
+	font-weight: 500;
+}
+
+.collections .row .col-sm-12 .dress span{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.collections .row .col-sm-12{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+}
