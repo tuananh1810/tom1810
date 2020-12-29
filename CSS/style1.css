@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Jost";
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
+
+.sidebar-active {
+    left: 0;
+}
+
+.sidebar .row .col-sm-12{
+    padding: 0;
+}
+
+.sidebarCollapse{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #a9a9a9;
+}
+
+.overlay-active{
+    display: block;
+    opacity: 0.8;
+    z-index: 998;
+}
+
+.fa-times{
+    color: red;
+    cursor: pointer;
+}
+
+.noti{
+    background-color: #111111;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.menu{
+    background-color: #ffffff;
+}
+
+.effect{
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.effect::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #000000;
+    transition: width .5s;
+}
+
+.effect:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.menu .row .col-sm-4{
+    padding: 0;
+}
+
+.menu .row .col-sm-4 a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.category{
+    background-color: #858585;
+}
+
+.name{
+    font-size: 50px;
+    color: #000000;
+}
+
+.category .row .col-sm-12, .col-sm{
+    padding: 0;
+}
+
+.category .cate a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ol{
+    padding: 0;
+}
+
+.breadcrumb{
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: #858585;
+}
+
+.breadcrumb a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.filter .col-sm-6{
+    padding: 0;
+}
+
+.column{
+    font-weight: bold;
+}
+
+.column a{
+    text-decoration: none;
+    color: #858585;
+}
+
+.column a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.columns .col-sm-6{
+    padding: 0;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pagination{
+    padding-bottom: 100px;
+}
+
+footer .row .col-sm-4, .col-sm-6{
+    padding: 0;
+}
+
+footer{
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    min-width: auto;
+    font-size: 13px;
+}
